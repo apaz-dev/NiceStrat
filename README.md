@@ -20,9 +20,11 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 - `src/main/java/Login.java` - código fuente del backend de la ventana asociada al inicio de sesion.
 - `src/main/java/MainActivity.java` - código fuente del backend de la vista principal.
 - `src/main/java/SingUp.java` - código fuente del backend de la ventana asociada al registro de una cuenta nueva.
+- `src/main/java/Splash.java` - código fuente del backend de la ventana que sale nada mas abrir la aplicacion.
 - `src/main/res/layout/activity_login.xml` - Aqui se encuentra el codigo del frontent de la ventana asociada al inicio de sesion.
 - `src/main/res/layout/activity_main.xml` - Aqui se encuentra el codigo del frontent de la vista principal.
 - `src/main/res/layout/activity_sing_up.xml` - Aqui se encuentra el codigo del frontent de la ventana asociada al registro de una cuenta nueva.
+- `src/main/res/layout/activity_splash.xml` - Aqui se encuentra el codigo del frontent de la vista principal.
 - `src/main/AndroidManifest.xml` - manifest del módulo.
 
 ## Cómo contribuir
