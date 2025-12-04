@@ -34,6 +34,17 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 - SwipeRefreshLayout
 - Glide
 
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| LightBlue1 | ![#07F2F2](https://placehold.co/15/07F2F2/07F2F2) #07F2F2 |
+| LightBlue2 | ![#05F2DB](https://placehold.co/15/05F2DB/05F2DB) #05F2DB |
+| DarkBlue1 | ![#03A696](https://placehold.co/15/03A696/03A696) #03A696 |
+| DarkBlue2 | ![#027368](https://placehold.co/15/027368/027368) #027368 |
+| Brown | ![#26110F](https://placehold.co/15/26110F/26110F) #26110F |
+
 ## Estructura principal
 
 - `src/main/java/Login.java` - código fuente del backend de la ventana asociada al inicio de sesión
