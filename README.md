@@ -49,9 +49,9 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 
 ## BRANCHES
 
-[PULL REQUEST BRANCHS](/apaz-dev/NiceStrat/tree/Pull)
+[PULL REQUEST BRANCHS](https://github.com/apaz-dev/NiceStrat/tree/Pull)
 
-[DEV BRANCH](/apaz-dev/NiceStrat/tree/Stack)
+[DEV BRANCH](https://github.com/apaz-dev/NiceStrat/tree/Stack)
 
 
 ## Cómo contribuir
