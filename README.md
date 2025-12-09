@@ -47,6 +47,12 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 - `src/main/res/menu/menu_appbar.xml` - menú de barra de aplicación con configuraciones
 - `src/main/AndroidManifest.xml` - manifest del módulo
 
+## BRANCHES
+
+[PULL REQUEST BRANCHS](/apaz-dev/NiceStrat/tree/Pull)
+[DEV BRANCH](/apaz-dev/NiceStrat/tree/Stack)
+
+
 ## Cómo contribuir
 
 1. Crea un branch con un nombre descriptivo (por ejemplo `feature/nombre` o `fix/descripcion`)
