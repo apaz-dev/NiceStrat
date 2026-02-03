@@ -14,6 +14,7 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 
 ## Color Reference
 
+### Modo Claro (Light Mode)
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | LightBlue1 | ![#07F2F2](https://placehold.co/15/07F2F2/07F2F2) #07F2F2 |
@@ -21,6 +22,16 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 | DarkBlue1 | ![#03A696](https://placehold.co/15/03A696/03A696) #03A696 |
 | DarkBlue2 | ![#027368](https://placehold.co/15/027368/027368) #027368 |
 | Brown | ![#26110F](https://placehold.co/15/26110F/26110F) #26110F |
+
+### Modo Oscuro (Dark Mode)
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| LightBlue1 | ![#294949](https://placehold.co/15/294949/294949) #294949 |
+| LightBlue2 | ![#408C85](https://placehold.co/15/408C85/408C85) #408C85 |
+| DarkBlue1 | ![#2A877E](https://placehold.co/15/2A877E/2A877E) #2A877E |
+| DarkBlue2 | ![#149486](https://placehold.co/15/149486/149486) #149486 |
+| Brown | ![#26110F](https://placehold.co/15/26110F/26110F) #26110F |
+| White | ![#3A3A3A](https://placehold.co/15/3A3A3A/3A3A3A) #3A3A3A |
 
 ## Características principales
 
@@ -28,33 +39,33 @@ Aquí se encuentran el código fuente (Java), los recursos (layouts, drawables, 
 - **SwipeRefresh**: Funcionalidad de recarga mediante gesto de deslizamiento
 - **Snackbar**: Notificaciones no intrusivas con acciones
 - **Navegación entre actividades**: Flujo entre pantallas de login, registro y vista principal
+- **Bottom App Bar**: Barra de navegación inferior con botón flotante (FAB) centrado
+- **Bottom Sheet Dialog**: Diálogo deslizable desde abajo con opciones de configuración, información y cierre de sesión
+- **Soporte multi-idioma**: Español (values-es) e inglés por defecto
+- **Modo oscuro**: Soporte completo de tema claro/oscuro con colores adaptados (values-night)
 
 ## Dependencias principales
 
 - SwipeRefreshLayout
 - Glide
 
-
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| LightBlue1 | ![#07F2F2](https://placehold.co/15/07F2F2/07F2F2) #07F2F2 |
-| LightBlue2 | ![#05F2DB](https://placehold.co/15/05F2DB/05F2DB) #05F2DB |
-| DarkBlue1 | ![#03A696](https://placehold.co/15/03A696/03A696) #03A696 |
-| DarkBlue2 | ![#027368](https://placehold.co/15/027368/027368) #027368 |
-| Brown | ![#26110F](https://placehold.co/15/26110F/26110F) #26110F |
-
 ## Estructura principal
 
 - `src/main/java/Login.java` - código fuente del backend de la ventana asociada al inicio de sesión
 - `src/main/java/MainActivity.java` - código fuente del backend de la vista principal con WebView, menús y diálogos
+- `src/main/java/MainBab.java` - código fuente del backend de la actividad con Bottom App Bar y Bottom Sheet Dialog
 - `src/main/java/SingUp.java` - código fuente del backend de la ventana asociada al registro de una cuenta nueva
 - `src/main/res/layout/activity_login.xml` - código del frontend de la ventana asociada al inicio de sesión
 - `src/main/res/layout/activity_main.xml` - código del frontend de la vista principal con WebView y SwipeRefreshLayout
+- `src/main/res/layout/activity_main_bab.xml` - código del frontend con Bottom App Bar y FAB
+- `src/main/res/layout/bottom_sheet_layout.xml` - código del frontend del Bottom Sheet Dialog con opciones de menú
 - `src/main/res/layout/activity_sing_up.xml` - código del frontend de la ventana asociada al registro de una cuenta nueva
 - `src/main/res/menu/menu_context.xml` - menú contextual con opciones de copiar y descargar
 - `src/main/res/menu/menu_appbar.xml` - menú de barra de aplicación con configuraciones
+- `src/main/res/menu/menu_bottom_appbar.xml` - menú de la barra de navegación inferior
+- `src/main/res/values-es/strings.xml` - recursos de texto en español
+- `src/main/res/values-night/colors.xml` - paleta de colores para modo oscuro
+- `src/main/res/drawable/ico_plus.xml` - ícono vectorial para el Bottom Sheet
 - `src/main/AndroidManifest.xml` - manifest del módulo
 
 ## Cómo contribuir
