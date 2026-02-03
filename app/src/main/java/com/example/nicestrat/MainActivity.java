@@ -80,6 +80,8 @@ public class MainActivity extends AppCompatActivity {
         builder.setNegativeButton("Nothing", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent(MainActivity.this, MainBab.class);
+                startActivity(intent);
             }
         });
 
@@ -125,6 +127,10 @@ public class MainActivity extends AppCompatActivity {
         } else if (id == R.id.itemCopy) {
             Toast toast2= Toast.makeText(this, "Copy", Toast.LENGTH_SHORT);
             toast2.show();
+        } else if (id == R.id.item4)
+        {
+            Intent intent = new Intent(MainActivity.this, MainBab.class);
+            startActivity(intent);
         }
 
         if (id == R.id.item3)
